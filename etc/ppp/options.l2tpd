@@ -1,0 +1,15 @@
+ipcp-accept-local
+mru 1410
+debug
+asyncmap 0
+crtscts
+show-password
+lcp-echo-failure 20
+lcp-echo-interval 50
+lock
+modem
+mtu 1452
+noauth
+noipx
+defaultroute
+nomppe-128
