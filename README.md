@@ -17,3 +17,5 @@ echo "c %name of lac%" > /var/run/xl2tpd/l2tp-control
 
 stop the connection:
 echo "d %name of lac%" > /var/run/xl2tpd/l2tp-control
+
+You'll need your own routing-fu to send traffic over the tunnel.
