@@ -9,3 +9,11 @@ tunnel secret is in l2tp-secrets
 goto xl2tpd.conf
 replace [lac username] with [lac %username provided sans the @domain.tld bit%]
 replace name = user@domain.tld
+
+to start / stop:
+
+start the connection:
+echo "c %name of lac%" > /var/run/xl2tpd/l2tp-control
+
+stop the connection:
+echo "d %name of lac%" > /var/run/xl2tpd/l2tp-control
